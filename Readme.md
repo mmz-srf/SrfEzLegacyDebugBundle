@@ -3,9 +3,6 @@
 ## Description
 Symfony bundle `SRFEzLegacyDebugBundle` show EzLegacy debug informations in the Web-Profiler
 
-Visit the project page [mmz-srf.github.com/SRFEzLegacyDebugBundle](http://mmz-srf.github.com/SRFEzLegacyDebugBundle/)
-
-
 
 ## Installation
 
