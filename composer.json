@@ -1,5 +1,5 @@
 {
-  "name": "srf/ez-legacy-debug-bundle",
+  "name": "mmz-srf/ez-legacy-debug-bundle",
   "type": "symfony-bundle",
   "description": "Symfony bundle 'SRFEzLegacyDebugBundle' show EzLegacy debug informations in the Web-Profiler.",
   "homepage": "http://mmz-srf.github.com/SRFEzLegacyDebugBundle/",

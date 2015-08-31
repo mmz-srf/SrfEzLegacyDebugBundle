@@ -8,24 +8,15 @@ Symfony bundle `SRFEzLegacyDebugBundle` show EzLegacy debug informations in the 
 
 **Get the Bundle**
 
-Choose your version from [packagist.org](https://packagist.org/packages/srf/ez-legacy-debug-bundle) and add a requirement to your ```composer.json```:
+Choose your version from [packagist.org](https://packagist.org/packages/mmz-srf/ez-legacy-debug-bundle) and add a requirement to your ```composer.json```:
 
 Using the console:
 
 ```bash
-php composer.phar require srf/ez-legacy-debug-bundlev:v1.0
+php composer.phar require mmz-srf/ez-legacy-debug-bundlev:v1.0
 ```
 
 Composer will add the dependency to your configuration.
-
-Alternatively, you can edit your ```composer.json``` manually and add the following line:
-
-```json
-"require": {
-    ...
-    "SRF/EzLegacyDebugBundle": "1.0"
-}
-```
 
 **Register the Bundle**
 
@@ -41,7 +32,7 @@ public function registerBundles()
 
 **Update your dependencies**
 
-Run ```php composer.phar update srf/ez-legacy-debug-bundle```
+Run ```php composer.phar update mmz-srf/ez-legacy-debug-bundle```
 
 ## Configuration
 Add the configuration to your ```app/config/site.ini```:
