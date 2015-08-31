@@ -1,0 +1,25 @@
+{
+  "name": "srf/ez-legacy-debug-bundle",
+  "type": "symfony-bundle",
+  "description": "Symfony bundle 'SRFEzLegacyDebugBundle' show EzLegacy debug informations in the Web-Profiler.",
+  "homepage": "http://mmz-srf.github.com/SRFEzLegacyDebugBundle/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Urban Etter",
+      "email": "urban.etter@srf.ch",
+    },
+    {
+      "name": "Hasan Kryeziu",
+      "email": "hasan.kryeziu@srf.ch"
+    },
+    {
+      "name": "Multimediazentrum SRF",
+      "homepage": "http://www.srf.ch"
+    }
+  ],
+  "autoload": {
+    "psr-0": { "SRF\\Bundles\\EzLegacyDebugBundle": "" }
+  },
+  "target-dir": "SRF/Bundles/EzLegacyDebugBundle"
+}

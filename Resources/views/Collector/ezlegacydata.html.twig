@@ -1,0 +1,46 @@
+{% extends 'WebProfilerBundle:Profiler:layout.html.twig' %}
+{% block toolbar %}
+    {% set icon %}
+        <!--
+            This is the additional base64_encoded ez-Logo
+            to display in the Profiler-Toolbar
+        -->
+        <img width="32" height="32" alt="Twig" style="border-width: 0; vertical-align: middle; margin-right: 5px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAAXNSR0IArs4c6QAAAR1QTFRF////
+            dHJzS0lKU1JSR0RFkY+PDwwNGBQWGhkZCAgIa2xsIR0hFRARHh4cICEhKikpWFZX9/f35+fnT01O
+            lJSUzMzMCAQFAAAAWllatrW2BQAAZmZmmZmZvb29kZCPpaSkSEZHeHV27+/vXl9f1tbWcG5vLiss
+            Pzs8ra2t3t7eQkJCPDw8X11ee3t76+rr0tHRuri5GxoeEBAQHhobhISELi0ujIyLKRwZUi8gYDMf
+            aTIXLyIcMBkPrGU/531G5nU71XZHSyweMxgMtl408nU28mwp9nAr4HA5FRYUxMTE9HQ23284MzMz
+            WFhWeHh2zsXFKSEhraWttl8ytmI59Xk88nMwmls+y3FFzGw7yWs8u2xEQiohOiAVQyARKh4c4rI4
+            OgAAAAF0Uk5TAEDm2GYAAAABYktHRACIBR1IAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH
+            3AcRCwwGui6fxgAAAHVJREFUOMtjYBgFdAPcPDCAQwE7jEGiAnEoIGCCFAdEga09CDiCRMQ5OTnF
+            pSDSGuIqUCucXUEApEAcohFMyktpMmAokILZDFQrhXAkugkgk8X5GLAqAAMpuFFADSZAgFDAoKmh
+            oeEJciAUQEwxhoDRZEVLAADgKhUeD3wkJAAAAABJRU5ErkJggg=="/>
+    {% endset %}
+
+    {% include 'WebProfilerBundle:Profiler:toolbar_item.html.twig' with { 'link': profiler_url } %}
+
+{% endblock %}
+
+{% block menu %}
+    <span class="label">
+        <span class="icon">
+            <img width="32" height="32" alt="Twig" style="border-width: 0; vertical-align: middle; margin-right: 5px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAAXNSR0IArs4c6QAAAR1QTFRF////
+                dHJzS0lKU1JSR0RFkY+PDwwNGBQWGhkZCAgIa2xsIR0hFRARHh4cICEhKikpWFZX9/f35+fnT01O
+                lJSUzMzMCAQFAAAAWllatrW2BQAAZmZmmZmZvb29kZCPpaSkSEZHeHV27+/vXl9f1tbWcG5vLiss
+                Pzs8ra2t3t7eQkJCPDw8X11ee3t76+rr0tHRuri5GxoeEBAQHhobhISELi0ujIyLKRwZUi8gYDMf
+                aTIXLyIcMBkPrGU/531G5nU71XZHSyweMxgMtl408nU28mwp9nAr4HA5FRYUxMTE9HQ23284MzMz
+                WFhWeHh2zsXFKSEhraWttl8ytmI59Xk88nMwmls+y3FFzGw7yWs8u2xEQiohOiAVQyARKh4c4rI4
+                OgAAAAF0Uk5TAEDm2GYAAAABYktHRACIBR1IAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH
+                3AcRCwwGui6fxgAAAHVJREFUOMtjYBgFdAPcPDCAQwE7jEGiAnEoIGCCFAdEga09CDiCRMQ5OTnF
+                pSDSGuIqUCucXUEApEAcohFMyktpMmAokILZDFQrhXAkugkgk8X5GLAqAAMpuFFADSZAgFDAoKmh
+                oeEJciAUQEwxhoDRZEVLAADgKhUeD3wkJAAAAABJRU5ErkJggg=="/>
+        </span>
+        <strong>EzLegacy</strong>
+    </span>
+{% endblock %}
+
+{% block panel %}
+    {% autoescape false %}
+       {{collector.ezdata}}
+    {%  endautoescape %}
+{% endblock %}
