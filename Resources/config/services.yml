@@ -1,6 +1,6 @@
 services:
     data_collector.EzLegacydata:
-        class: SRFEzLegacyDebugBundle\DataCollector\EzLegacyDataCollector
+        class: SRF\Bundles\EzLegacyDebugBundle\DataCollector\EzLegacyDataCollector
         public: false
         arguments: ['@ezpublish_legacy.kernel']
         tags:
