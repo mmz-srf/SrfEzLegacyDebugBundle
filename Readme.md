@@ -13,7 +13,7 @@ Choose your version from [packagist.org](https://packagist.org/packages/mmz-srf/
 Using the console:
 
 ```bash
-php composer.phar require-dev mmz-srf/ez-legacy-debug-bundle
+php composer.phar require --dev mmz-srf/ez-legacy-debug-bundle
 ```
 
 Composer will add the dependency to your configuration.
