@@ -18,7 +18,7 @@
       "homepage": "http://www.srf.ch"
     }
   ],
-  "minimum-stability": "dev-master",
+  "minimum-stability": "dev",
   "autoload": {
     "psr-0": { "SRF\\Bundles\\EzLegacyDebugBundle": "" }
   },
