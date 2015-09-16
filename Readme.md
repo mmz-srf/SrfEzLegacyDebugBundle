@@ -1,9 +1,9 @@
 # SRF EzLegacyDebugBundle
 
 
-![alt tag](https://raw.github.com/mmz-srf/SRFEzLegcyDebugBundle/master/Resources/meta/screenshot1.png)
+(https://raw.github.com/mmz-srf/SRFEzLegcyDebugBundle/master/Resources/meta/screenshot1.png)
 
-![alt tag](https://raw.github.com/mmz-srf/SRFEzLegcyDebugBundle/master/Resources/meta/screenshot2.png)
+(https://raw.github.com/mmz-srf/SRFEzLegcyDebugBundle/master/Resources/meta/screenshot2.png)
 
 ## Description
 Symfony bundle `SRFEzLegacyDebugBundle` show EzLegacy debug informations in the Web-Profiler
