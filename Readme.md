@@ -1,5 +1,10 @@
 # SRF EzLegacyDebugBundle
 
+
+![alt tag](https://raw.github.com/mmz-srf/SRFEzLegcyDebugBundle/master/Resources/meta/screenshot1.png)
+
+![alt tag](https://raw.github.com/mmz-srf/SRFEzLegcyDebugBundle/master/Resources/meta/screenshot2.png)
+
 ## Description
 Symfony bundle `SRFEzLegacyDebugBundle` show EzLegacy debug informations in the Web-Profiler
 
@@ -37,7 +42,7 @@ public function registerBundles()
 Run ```php composer.phar update mmz-srf/ez-legacy-debug-bundle```
 
 ## Configuration
-Add the configuration to your ```app/config/site.ini```:
+Add the configuration to your ```ezpublish_legacy/settings/override/site.ini```:
 
 ```ini
 [DebugSettings]
