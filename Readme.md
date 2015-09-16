@@ -1,12 +1,11 @@
 # SRF EzLegacyDebugBundle
 
-![ScreenShot1](https://raw.githubusercontent.com/mmz-srf/SrfEzLegacyDebugBundle/master/Resources/meta/screenshot1.png)
-
-![ScreenShot2](https://raw.githubusercontent.com/mmz-srf/SrfEzLegacyDebugBundle/master/Resources/meta/screenshot2.png)
-
 ## Description
 Symfony bundle `SRFEzLegacyDebugBundle` show EzLegacy debug informations in the Web-Profiler
 
+![ScreenShot1](https://raw.githubusercontent.com/mmz-srf/SrfEzLegacyDebugBundle/master/Resources/meta/screenshot1.png)
+
+![ScreenShot2](https://raw.githubusercontent.com/mmz-srf/SrfEzLegacyDebugBundle/master/Resources/meta/screenshot2.png)
 
 ## Installation
 
